@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Titans Advisory</title>
+  </head>
+  <body>
+    <section class="sub-header2">
+      <nav>
+        <a href="/index.html"
+          ><img src="/assets/Titans-logo.png" alt="logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-window-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/services.html">Services</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- Location and Contact Form -->
+    <section class="location">
+      <img src="/assets/map.jpg" alt="map" />
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>1-1-8 Nishi-Shinjuku, Shinjuku-Ku</h5>
+              <p>Tokyo, Japan 160-0023</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+81 03-2222-9999</h5>
+              <p>Business hours: 9am - 730pm, Monday - Friday</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>contact@titans-advisory.com</h5>
+              <p>Email Inquiries</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="" onsubmit="sendEmail()">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Subject" required />
+            <textarea
+              name=""
+              id=""
+              rows="8"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn orange-btn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h3>Connect</h3>
+      <p>
+        Please feel free to connect with us to learn about our full suite of
+        solutions and services.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-linkedin-square"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
+    </section>
+
+    <!-- Script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
