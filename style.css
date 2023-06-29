@@ -26,7 +26,7 @@ nav {
 
 nav img {
   width: 120px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 2rem;
 }
 
@@ -42,6 +42,7 @@ nav img:hover {
 .nav-links ul li {
   list-style: none;
   display: inline-block;
+  margin-top: 30px;
   padding: 8px 12px;
   position: relative;
 }
@@ -473,6 +474,7 @@ h3 {
   }
   nav img {
     width: 90px;
+    margin-top: 10px;
   }
   .nav-links ul li {
     display: block;
