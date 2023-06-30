@@ -9,7 +9,7 @@ Mobile responsive multi-page Website for a world-class Consulting firm, **Titans
 - HTML
 - CSS
 
-## 💫Features
+## 💫 Features
 
 - **UI/UX**: Clean User interface and easy to use.
 
