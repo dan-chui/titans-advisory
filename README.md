@@ -10,6 +10,7 @@ Please visit (in a new tab): https://titans-advisory.vercel.app/
 - JavaScript (ES6+)
 - HTML
 - CSS
+- Hosted in Vercel
 
 ## 💫 Features
 
