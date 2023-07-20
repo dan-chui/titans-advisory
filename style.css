@@ -514,22 +514,27 @@ h3 {
   }
   .global p {
     text-align: left;
+    font-size: 0.98rem;
   }
   .services p {
     text-align: left;
-    font-size: 0.95rem;
+    font-size: 0.98rem;
   }
   .services-col p {
     text-align: left;
+    font-size: 0.98rem;
   }
   .testimonials p {
     text-align: left;
+    font-size: 0.98rem;
   }
   .team p {
     text-align: left;
+    font-size: 0.98rem;
   }
   .team-col p {
     text-align: left;
+    font-size: 0.98rem;
   }
   .cta h1 {
     font-size: 28px;
