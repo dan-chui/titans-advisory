@@ -10,12 +10,13 @@ Please visit (in a new tab): https://titans-advisory.vercel.app/
 - JavaScript (ES6+)
 - HTML
 - CSS
+- Vercel
 
 ## 💫 Features
 
 - **UI/UX**: Clean User interface and easy to use.
 
-- **Mobile-Responsive**: Accessible via PC, tablet, or mobile phone systems.
+- **Mobile Responsive**: Accessible via PC, tablet, or mobile phone systems.
 
 ---
 
@@ -50,3 +51,9 @@ npm run dev
 ```
 npm run build
 ```
+
+## Demo
+
+Please visit (in a new tab): https://titans-advisory.vercel.app/
+
+![](/assets/screenshot.webp)
