@@ -56,4 +56,8 @@ npm run build
 
 Please visit (in a new tab): https://titans-advisory.vercel.app/
 
-![](/assets/screenshot.webp)
+![](/assets/screenshot1.webp)
+
+![](/assets/screenshot2.webp)
+
+![](/assets/screenshot3.webp)
