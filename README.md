@@ -19,6 +19,17 @@ Please visit (in a new tab): https://titans-advisory.vercel.app/
 - **Mobile Responsive**: Accessible via PC, tablet, or mobile phone systems.
 
 ---
+## Demo
+
+Please visit (in a new tab): https://titans-advisory.vercel.app/
+
+![](/assets/screenshot1.webp)
+
+![](/assets/screenshot2.webp)
+
+![](/assets/screenshot3.webp)
+
+---
 
 ## 🌎 Getting Started
 
@@ -51,13 +62,3 @@ npm run dev
 ```
 npm run build
 ```
-
-## Demo
-
-Please visit (in a new tab): https://titans-advisory.vercel.app/
-
-![](/assets/screenshot1.webp)
-
-![](/assets/screenshot2.webp)
-
-![](/assets/screenshot3.webp)
