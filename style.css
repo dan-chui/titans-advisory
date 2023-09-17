@@ -108,6 +108,44 @@ nav img:hover {
   transition: 0.7s;
 }
 
+.hero-btn1 {
+  display: inline-block;
+  text-decoration: none;
+  color: orange;
+  border: 1px solid orange;
+  padding: 12px 34px;
+  font-size: 16px;
+  background: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn1:hover {
+  border: 1px solid orange;
+  background: orange;
+  color: white;
+  transition: 0.7s;
+}
+
+.hero-btn2 {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid orange;
+  padding: 12px 34px;
+  font-size: 16px;
+  background: orange;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn2:hover {
+  border: 1px solid orange;
+  background: white;
+  color: orange;
+  transition: 0.7s;
+}
+
 nav .fa {
   display: none;
 }
@@ -129,7 +167,7 @@ p {
   color: #777;
   font-size: 20px;
   font-weight: 400;
-  padding: 10px;
+  padding: 15px;
 }
 
 .row {
@@ -185,6 +223,34 @@ h3 {
 .services-col:hover,
 .services1-col:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Insights */
+
+.row1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insights-col {
+  flex-basis: 48%;
+  background: antiquewhite;
+  border-radius: 10px;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.insights-col:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.insights-card img {
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* Global */
@@ -393,16 +459,6 @@ h3 {
   padding: 15px 0 25px;
 }
 
-.orange-btn {
-  border: 1px solid orange;
-  background: transparent;
-  color: orange;
-}
-
-.orange-btn:hover {
-  color: white;
-}
-
 /* Contact Us */
 .location {
   width: 80%;
@@ -541,7 +597,38 @@ h3 {
     text-align: left;
     font-size: 0.98rem;
   }
+  .insights-col {
+    margin-bottom: 1rem;
+  }
+  .insights-col p {
+    text-align: left;
+    font-size: 0.98rem;
+  }
+  .insights-card p {
+    text-align: left;
+    font-size: 0.98rem;
+  }
+  .insights-card img {
+    width: 100%;
+  }
   .cta h1 {
     font-size: 28px;
   }
+}
+
+@media (min-width: 1700px) {
+  .global,
+  .testimonials,
+  .cta,
+  .services,
+  .about-us,
+  .team,
+  .contact-us,
+  .location {
+    width: 1700px;
+  }
+}
+
+html {
+  overflow-x: hidden;
 }
