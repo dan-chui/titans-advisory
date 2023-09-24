@@ -629,6 +629,20 @@ h3 {
   }
 }
 
+@media (min-width: 1700px) {
+  .wrapper,
+  .header-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 3200px;
+    padding: 0;
+    object-fit: contain;
+  }
+  .header-wrapper .icons {
+    margin-right: 5rem;
+  }
+}
+
 html {
   overflow-x: hidden;
 }
