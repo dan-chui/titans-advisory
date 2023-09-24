@@ -27,9 +27,9 @@ Please visit (in a new tab): https://titans-advisory.vercel.app/
 
 ![](/assets/screenshot2.webp)
 
-![](/assets/screenshot4.webp)
-
 ![](/assets/screenshot3.webp)
+
+![](/assets/screenshot4.webp)
 
 ---
 
